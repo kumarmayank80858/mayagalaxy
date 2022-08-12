@@ -1,0 +1,64 @@
+name: homeskitchen
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  permission_handler: ^10.0.0
+  connectivity_plus: ^2.3.6+1
+  shared_preferences: ^2.0.15
+  cupertino_icons: ^1.0.2
+  intro_slider: ^2.3.4
+  introduction_screen: ^3.0.2
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.0
+  webview_flutter: ^3.0.0
+  sms_autofill: ^2.2.0
+  flutter_svg: ^1.1.1+1
+  flutter_launcher_icons: ^0.9.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/logo_forbackground.png"
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+  #    - assets/images/hamburger.png
+  #    - assets/images/movie.png
+  #    - assets/images/discount.png
+  #    - assets/images/travel.png
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Roboto-Italic
+      fonts:
+        - asset: fonts/Roboto-Italic.ttf
+    #       - asset: fonts/Schyler-Italic.ttf
+    #         style: italic
+    - family: Poppins-BlackItalic
+      fonts:
+        - asset: fonts/Poppins-BlackItalic.ttf
+
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
